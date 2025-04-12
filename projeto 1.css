@@ -1,0 +1,53 @@
+/*A estrutura do css é composta: pela identificação do elemento seguido de chaves, e por fim dentro das chaves você escolhe o atributo que deseja modificar seguido do parâmetro. Ex.: 
+p{font-size:16px;
+    color: red;
+}   
+Sempre eu preciso terminar os comandos com ;*/
+/*Medidas Absolutas - ou seja fixas
+    px pixels
+    cm centimetros
+    mm milímetros
+Medidas relativas - ou seja que se ajustam
+    rem - se ajusta de acordo com o tamanho da fonte html
+    % - relativo ao tamanho do elemento pai / tela
+*/
+
+.ferias{
+    /*Alterando a largura da imagem*/
+    width: 50%;
+    /*Alterando a altura da imagem*/
+    height: 50%;
+}
+img{
+   /*alterando a largura da imagem*/
+    width: 50%;
+    /*alterando a altura da img*/
+    height: 50%;
+}
+tr,td{
+   /*definindo tipo e espessura da borda*/
+    border: 1px solid;
+    /*definindo a cor da cor da borda das linhas e colunas da tabela*/
+    border-color: black;
+    /*ajustando a largura*/
+    width: 40%;
+}
+td{
+    width: 40%;
+    text-align: center;
+}
+.linha1{
+    background-color: #88f8cb; /*trocar a cor de fundo*/
+    text-align: center; /*alinha no centro*/
+    color: black; /*troca a cor da linha*/
+}
+body{
+    background-image:linear-gradient(to bottom,#81A0F7,#A5A1F7,#5EB6F5);/*Criamos um gradiente para a pg web. formas de aplicação left, right, top, bottom*/
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 19px;
+}
+li{
+    font-size: 19px;
+}
